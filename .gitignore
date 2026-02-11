@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Playwright ---
+playwright-report/
+test-results/
+trace.zip
+
+# --- Logs / generated data ---
+*.log
+*.tsv
+completed.tsv
+copyrighted.tsv
+failed.tsv
+
+# --- Local data / assets ---
+photos/
+2025_*/
+downloads/
+output/
+tmp/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.idea/
+.vscode/
+
+# --- Misc ---
+*.swp
+*.swo
+*.tmp
+
+# --- Word ---
+~$*
+PiwigoTransfer.docx
